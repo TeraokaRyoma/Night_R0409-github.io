@@ -1,7 +1,7 @@
 //ヘッダー読み込み
 function loadHeader() {
     $.ajax({
-        url: "common/html/header.html", // 修正
+        url: "../common/html/header.html", // 修正
         dataType: "html",
         success: function(data) {
             $("body").prepend(data);
@@ -15,7 +15,7 @@ function loadHeader() {
 //フッター読み込み
 function loadFooter() {
     $.ajax({
-        url: "common/html/footer.html", // 修正
+        url: "../common/html/footer.html", // 修正
         dataType: "html",
         success: function(data) {
             $("body").append(data); // 修正
