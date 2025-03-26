@@ -2,7 +2,10 @@
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
     '/Night_R0409-github.io/',
+    '../../common/html/header.html', // 追加
+    '../../common/html/footer.html', //追加
 ];
+
 
 // インストール処理
 self.addEventListener('install', function(event) {

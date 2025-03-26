@@ -13,7 +13,7 @@ function loadHeader() {
 }
 
 //フッター読み込み
-function loadHeader() {
+function loadFooter() {
     $.ajax({
         url: "../html/header.html",
         dataType: "html",
