@@ -1,10 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches-v2';
 var urlsToCache = [
-    '/', // 修正
-    'index.html', // 修正
-    'common/html/header.html', // 修正
-    'common/html/footer.html', // 修正
+    '/Night_R0409-github.io/', // 修正
 ];
 
 // インストール処理
