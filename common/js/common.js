@@ -1,15 +1,6 @@
 //ヘッダー読み込み
 function loadHeader() {
-    $.ajax({
-        url: "../html/header.html", // 相対パスに変更
-        dataType: "html",
-        success: function(data) {
-            $("body").prepend(data);
-        },
-        error: function() {
-            console.error("ヘッダーの読み込みに失敗しました。");
-        }
-    });
+    $("#header-container").load("../html/header.html");
 }
 
 //フッター読み込み
