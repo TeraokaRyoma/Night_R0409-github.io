@@ -1,7 +1,7 @@
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches-v2';
 var urlsToCache = [
-    '/Night_R0409-github.io/', // 修正
+    '/OTCManualApp/', // 修正
 ];
 
 // インストール処理
