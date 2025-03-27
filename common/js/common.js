@@ -1,6 +1,6 @@
 //ヘッダー読み込み
 function loadHeader() {
-    $("#header-container").load("../html/header.html");
+    $("#header-container").load("/common/html/header.html");
 }
 
 //フッター読み込み
