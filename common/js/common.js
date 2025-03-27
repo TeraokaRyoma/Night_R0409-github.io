@@ -5,14 +5,5 @@ function loadHeader() {
 
 //フッター読み込み
 function loadFooter() {
-    $.ajax({
-        url: "../html/footer.html", // 相対パスに変更
-        dataType: "html",
-        success: function(data) {
-            $("body").append(data);
-        },
-        error: function() {
-            console.error("フッターの読み込みに失敗しました。");
-        }
-    });
+    $("#footer-container").load("/Night_R0409-github.io/common/html/footer.html");
 }
